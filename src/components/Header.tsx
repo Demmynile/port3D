@@ -15,8 +15,11 @@ export const Header = () => {
             <Link href = '/about' aria-label='About'>
               About
              </Link>
-             <Link href = '/projects' aria-label='Project'>
+             <Link href = '/projects' aria-label='Projects'>
               Projects
+             </Link>
+             <Link href = '/blog' aria-label='Blog'>
+              Blog
              </Link>
              {/* <Link href = '/' aria-label='Home Page'>
                 Ademola Balogun

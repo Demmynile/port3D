@@ -2,9 +2,12 @@
 
 import Bounded from "@/components/Bounded";
 import Heading from "@/components/Heading"
-import React from "react";
+import React , {useLayoutEffect, useRef} from "react";
 import { MdCircle } from "react-icons/md";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger)
 
 
 const Techlist = () => {
@@ -39,8 +42,46 @@ const Techlist = () => {
       },
     ]
     
+    const component = useRef(null)
+
+    useLayoutEffect(() => {
+      let ctx = gsap.context(() => {
+        // create as many GSAP animations and/or ScrollTriggers here as you want...
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            pin: true, // pin the trigger element while active
+            start: "top bottom",
+            end: "bottom top",
+            scrub: 4,
+          },
+        });
+  
+        tl.fromTo(
+          ".tech-row",
+          {
+            x: (index) => {
+              return index % 2 === 0
+                ? gsap.utils.random(600, 400)
+                : gsap.utils.random(-600, -400);
+            },
+          },
+          {
+            x: (index) => {
+              return index % 2 === 0
+                ? gsap.utils.random(-600, -400)
+                : gsap.utils.random(600, 400);
+            },
+            ease: "power1.inOut",
+          },
+        );
+      }, component);
+      return () => ctx.revert(); // cleanup!
+    }, []);
     return (
-       <section className="overflow-hidden">
+       <section 
+       className="overflow-hidden"
+       ref={component}
+       >
           <Bounded as = 'div'>
             <Heading size = 'xl' className="mb-8" as = 'h2' >
                 What I use

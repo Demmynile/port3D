@@ -1,6 +1,6 @@
 'use client'
 
-import Biography from "@/slices/Biography"
+import Biography from "@/slices/biography"
 
 export default function About(){
   return (
