@@ -2,10 +2,12 @@
 
 import Biography from "@/slices/biography"
 
-export default function About(){
+const About = () => {
   return (
     <div>
       <Biography />
     </div>
   )
 }
+
+export default About

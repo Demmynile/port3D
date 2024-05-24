@@ -1,28 +1,14 @@
-import Bounded from '@/components/Bounded'
-import Heading from '@/components/Heading'
-import React from 'react'
-import {isFilled} from '@prismicio/client'
-import {PrismicRichText} from '@prismicio/react'
-import { RichTextField } from '@prismicio/types';
+'use client'
 
-interface blogProps {
-    // title : string;
-    description: string
-}
+import Contentlist from "@/slices/contentlist"
 
-const Blog = ({description} : blogProps) => {
+export default function Blog(){
   return (
-    <Bounded>
-        <Heading size = 'xl' className='mb-8'>
-             BLOG
-        </Heading>
-        {<h4>{description}</h4>&& (
-            <div className='prose prose-xl prose-invert mb-10'>
-                {description}
-            </div>
-        )}
-    </Bounded>
+    <div>
+      <Contentlist
+        description="Ai is the best of all the profession i have known"
+      
+      />
+    </div>
   )
 }
-
-export default Blog
