@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import { Urbanist } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/Header";
+import  Header  from "@/components/Header";
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 
