@@ -12,7 +12,10 @@ import { projectData } from "../data"
 function Projects() {
   return (
     <Bounded>
-       <div className="flex items-center p-4 justify-between border border-white w-full h-[10rem]">
+       <Heading as = 'h3' size = 'lg' className = 'col-start-1 mb-4'>
+         PROJECTS
+        </Heading>
+       <div className="flex items-center p-4 justify-between border border-white w-full h-[10rem] ">
          {projectData && projectData.map((data)   => (
         <>
         <div className="flex items-start justify-center space-x-4">
@@ -25,9 +28,9 @@ function Projects() {
                    />
              </div>
              <div>
-             <Heading as = 'h6' size = 'sm' className = 'col-start-1'>
-                {data.title}
-              </Heading>
+                <Heading className="text-sm font-extrabold md:text-md lg:text-lg xl:text-[2rem] xl:mt-2">
+                    {data.title}
+                </Heading>
              </div>
  
           
