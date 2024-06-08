@@ -4,9 +4,9 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 import { FiMenu } from "react-icons/fi";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+// import { AiOutlineShoppingCart } from "react-icons/ai";
 import { IoCloseOutline } from "react-icons/io5";
-import Image from "next/image";
+// import Image from "next/image";
 import clsx from "clsx";
 
 export default function Header() {
