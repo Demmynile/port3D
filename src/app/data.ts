@@ -9,5 +9,21 @@ export const projectData : allProjectProps= [
         liveLink : '',
         description : ''
       
+    },
+    {
+        title : 'Car Price Prediction using Machine Learning',
+        image : churnImage,
+        github : '',
+        liveLink : '',
+        description : ''
+      
+    },
+    {
+        title : 'Image Classification using AI',
+        image : churnImage,
+        github : '',
+        liveLink : '',
+        description : ''
+      
     }
 ]

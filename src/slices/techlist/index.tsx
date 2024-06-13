@@ -22,22 +22,22 @@ const Techlist = () => {
     const techs : techList = [
       {
         id : 1,
-        techName : 'React',
+        techName : 'Python',
         techColor : '#00D1F7'
       },
       {
         id : 2,
-        techName : 'Typescript',
+        techName : 'ML',
         techColor : '#FFFFFF'
       },
       {
         id : 3,
-        techName : 'NextJs',
+        techName : 'AI',
         techColor : '#0AE448'
       },
       {
         id : 4,
-        techName : 'GSAP',
+        techName : 'SQL',
         techColor : '#FF7F3E'
       },
     ]

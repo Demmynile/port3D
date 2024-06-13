@@ -15,9 +15,9 @@ function Projects() {
        <Heading as = 'h3' size = 'lg' className = 'col-start-1 mb-4'>
          PROJECTS
         </Heading>
-       <div className="flex items-center p-4 justify-between border border-white w-full h-[10rem] ">
-         {projectData && projectData.map((data)   => (
-        <>
+    {projectData && projectData.map((data) => (
+    <div className="mt-3">
+       <div className="flex flex-col items-start  p-4 justify-between border border-white w-full h-[10rem]">
         <div className="flex items-start justify-center space-x-4">
              <div>
                    <Image 
@@ -28,12 +28,10 @@ function Projects() {
                    />
              </div>
              <div>
-                <Heading className="text-sm font-extrabold md:text-md lg:text-lg xl:text-[2rem] xl:mt-2">
+                <Heading className="text-lg font-extrabold md:text-2xl lg:text-[2rem] xl:text-[2rem] xl:mt-2">
                     {data.title}
                 </Heading>
              </div>
- 
-          
         </div>
         <div className="flex items-center justify-center space-x-3">
           
@@ -42,13 +40,9 @@ function Projects() {
                  <Button label = "description"/>
              
         </div>
-        </>
-        
-
-        ))}
-       
-
        </div>
+      </div>
+    ))}
     </Bounded>
   )
 }
