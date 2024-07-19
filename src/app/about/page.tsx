@@ -1,8 +1,8 @@
-'use client'
+
 
 import Biography from "../../slices/biography"
 
-const About = () => {
+function About () {
   return (
     <div>
       <Biography />
