@@ -1,6 +1,6 @@
 'use client'
 
-import Biography from "@/slices/biography"
+import Biography from "../../slices/biography/index"
 
 const About = () => {
   return (
