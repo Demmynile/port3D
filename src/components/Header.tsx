@@ -55,7 +55,7 @@ export default function Header() {
             />
 
             {navlinks.map((d, i) => (
-              <Link key={i} className="font-bold" href={d.link}>
+              <Link key={i} className="font-bold " href={d.link}>
                 {d.labe}
               </Link>
             ))}
@@ -67,7 +67,7 @@ export default function Header() {
         {navlinks.map((d, i) => (
             <Link
               key={i}
-              className="hidden lg:block  text-gray-400 hover:text-black"
+              className="hidden lg:block text-gray-400 text-lg font-extrabold hover:text-black"
               href={d.link}
             >
               {d.labe}
