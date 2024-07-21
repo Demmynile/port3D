@@ -13,7 +13,7 @@ function Projects() {
         PROJECTS
       </Heading>
       {projectData &&
-        projectData.map((data) => (
+        projectData.map((data , index) => (
           <>
             <div className="mt-3">
               <div className="flex flex-col items-start  p-4 justify-between border border-white w-full h-[10rem]">
@@ -33,9 +33,9 @@ function Projects() {
                   </div>
                 </div>
                 <div className="flex items-center justify-center space-x-3">
-                  <Button label="github" />
-                  <Button label="livelink" />
-                  <Button label="description" />
+                  <a href = {data.github} target="_blank" rel="noopener noreferrer"><Button label="github" /></a>
+                  {/* <Button label="livelink" />
+                  <Button label="description" /> */}
                 </div>
               </div>
             </div>
