@@ -34,6 +34,7 @@ function Projects() {
                 </div>
                 <div className="flex items-center justify-center space-x-3">
                   <a href = {data.github} target="_blank" rel="noopener noreferrer"><Button label="github" /></a>
+                  <a href = {data.liveLink} target="_blank" rel="noopener noreferrer"><Button label="livelink" /></a>
                   {/* <Button label="livelink" />
                   <Button label="description" /> */}
                 </div>
