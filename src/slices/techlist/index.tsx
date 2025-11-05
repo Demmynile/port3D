@@ -18,24 +18,34 @@ const Techlist = () => {
   type techList = techItems[];
 
   const techs: techList = [
-    {
+     {
       id: 1,
-      techName: "Python",
+      techName: "Excel",
       techColor: "#00D1F7",
     },
     {
       id: 2,
-      techName: "ML",
-      techColor: "#FFFFFF",
+      techName: "BI",
+      techColor: "#00D1F7",
     },
     {
       id: 3,
-      techName: "LLM",
-      techColor: "#0AE448",
+      techName: "Python",
+      techColor: "#FFFFFF",
     },
     {
       id: 4,
       techName: "SQL",
+      techColor: "#0AE448",
+    },
+    {
+      id: 5,
+      techName: "ML",
+      techColor: "#FF7F3E",
+    },
+    {
+      id: 6,
+      techName: "AI",
       techColor: "#FF7F3E",
     },
   ];

@@ -27,16 +27,11 @@ function About () {
               About Ade
             </Heading>
             <div className="prose prose-xl prose-slate prose-invert col-start-1">
-              As an AI engineer, I bring a wealth of experience in designing and
-              implementing cutting-edge machine learning and deep learning
-              solutions. My skills include developing sophisticated algorithms,
-              optimizing neural network architectures, and deploying scalable AI
-              models. With a strong foundation in Python, TensorFlow, and PyTorch,
-              I excel at creating intelligent systems that solve complex problems
-              and drive business growth. My passion for AI, combined with a
-              collaborative approach and a commitment to continuous learning,
-              positions me to contribute effectively to advancing technology and
-              achieving transformative results in various industries.
+             As a versatile data professional, I specialize in transforming data into actionable insights and intelligent systems that drive innovation and business growth. My expertise spans data analysis, data science, AI engineering, MLOps, and cloud engineering, allowing me to deliver end-to-end solutions—from data exploration and model development to scalable deployment and monitoring.
+
+With a strong command of Excel , PowerBI , SQL , Power Apps , Sharepoint , Python, TensorFlow, PyTorch, and cloud platforms such as AWS, Azure, and Google Cloud, I excel at designing and implementing robust machine learning pipelines and production-grade AI solutions. My experience includes developing advanced algorithms, optimizing neural networks, and integrating AI into real-world workflows to enhance decision-making and operational efficiency.
+
+Driven by curiosity and a passion for continuous learning, I thrive in collaborative environments where technology meets innovation—committed to building intelligent systems that create measurable impact across industries.
             </div>
             <Button label={"Resume"} onClick={handleDownload} />
             <Avatar
