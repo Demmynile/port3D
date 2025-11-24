@@ -24,24 +24,24 @@ export const projectData: allProjectProps = [
     liveLink: "",
     description: "",
   },
-  // {
-  //   id : 3,
-  //   title: "OPEN SOURCE LLM RAG APPLICATIONS",
-  //   image: tSpeech,
-  //   github:
-  //     "https://github.com/Demmynile/Journey_to_ML_engineer/tree/main/llms/open-source",
-  //   liveLink: "",
-  //   description: "",
-  // },
-  // {
-  //   id : 4,
-  //   title: "Churn Prediction using Machine Learning",
-  //   image: churnImage,
-  //   github:
-  //     "https://github.com/Demmynile/Journey_to_ML_engineer/blob/main/machine-learning/churn-prediction/03-churn.ipynb",
-  //   liveLink: "",
-  //   description: "",
-  // },
+  {
+    id : 3,
+    title: "Predicting Urban Burglary Hotspots. A Machine Learning and Geospatial Analysis of Hull City United Kingdom",
+    image: tSpeech,
+    github:
+      "https://github.com/Demmynile/crime-prediction",
+    liveLink: "",
+    description: "",
+  },
+  {
+    id : 4,
+    title: "Brain tumor detection and classification using Machine Learning and Deep Learning Models",
+    image: churnImage,
+    github:
+      "https://github.com/Demmynile/brain-tumor-classification-web",
+    liveLink: "",
+    description: "",
+  },
   // {
   //   id : 5,
   //   title: "Car Price Prediction using Machine Learning and Deep Learning Models",
