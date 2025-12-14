@@ -42,14 +42,14 @@ export const projectData: allProjectProps = [
     liveLink: "",
     description: "",
   },
-  // {
-  //   id : 5,
-  //   title: "Car Price Prediction using Machine Learning and Deep Learning Models",
-  //   image: churnImage,
-  //   github: "https://github.com/Demmynile/Car-price-prediction/blob/main/CAR%20PRICE%20PREDICTION%20(SUMMATIVE%20ASSIGNNMENT).ipynb",
-  //   liveLink: "",
-  //   description: "",
-  // },
+  {
+    id : 5,
+    title: "Data Professional Survey Breakdown Analysis",
+    image: churnImage,
+    github: "https://app.powerbi.com/groups/1187cc83-2445-4538-a90d-459c012c84a8/reports/85cb4afd-cce5-4655-b0e5-20750a33e49c/1ca8045a38af1794d191?experience=power-bi",
+    liveLink: "",
+    description: "",
+  },
   // {
   //   id : 6,
   //   title: "Credit Score Rating Algorithms",
